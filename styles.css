@@ -1,0 +1,11 @@
+html{background-color: antiquewhite;color:rgb(10, 10, 143);
+    font-family: Arial, Helvetica, sans-serif;}
+h1{font: 16px,bold;}
+h2{font:14px,bold;}
+h3{font:12px;}
+h4{font:10px;}
+nav {background:antiquewhite;}
+button{width: 80rem;
+background:rgb(228, 225, 225);
+color:rgb(10, 10, 143); border-radius: 15px;
+border:none;}
