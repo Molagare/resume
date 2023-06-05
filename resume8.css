@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./resume-images/tile3.jpg) repeat;
+    margin:0;
+    width: 100%;
+}
+
+
+h1{
+    font: 1em,bold;
+}
+h2{
+    font:0.87em,bold;
+}
+h3{
+    font:0.75em;
+}
+h4{
+    font: 0.625em;
+}
+nav {
+    background:rgb(211, 189, 160);
+    margin:0;
+}
+button{
+    padding: 0.08em; 
+    width: 80%;
+    background:rgb(165, 141, 141);
+    color:rgb(10, 10, 143); 
+    border-radius: 0.9em;
+    border:none;
+}
+img{
+    border-radius:50%
+}
+#edu{
+    background:rgb(158, 142, 121); 
+    border:rgb(153, 153, 190)
+    margin:0;
+}
+#expi{
+    background: rgb(185, 185, 212);
+    border: rgb(185,185/212) 
+    margin:0
+}
+    #skil{
+        background: rgb(197, 168, 168);
+        border: rgb(197,168,168);
+    }
+p{
+    margin:0;
+}
+section{
+    padding: 0.5em;;
+    background-color: rgb(206, 171, 129);
+    margin: 0;
+}
+footer{
+    margin: 0;
+    background-color: rgb(238, 215, 186);
+}
+
+@media screen and (max-width:700px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80%;
+        border: 0.2em solid rgb(199, 115, 85);
+        color:rgb(49, 49, 165);
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        background: url(./digital-images/tile2.jpg) repeat;
+    }
+    
+    
+    h1{
+        font:bold 1.2em;
+    }
+    
+    h2{
+        font: bold 1em;
+    }
+    
+    h3{
+        font: bold 0.8em;
+    }
+    
+    h4{
+        font: bold 0.6em;
+    }
+}
+    
+    
+@media screen and( max-width:1000px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        border: 0.2em solid rgb(199, 115, 85);
+        color:rgb(49, 49, 165);
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        background: url(./digital-images/tile2.jpg) repeat;
+    }
+    
+    h1{
+        font:bold 1.4em;
+    }
+    
+    h2{
+        font: bold 1.2em;
+    }
+    
+    h3{
+        font: bold 1em;
+    }
+    
+    h4{
+        font: bold 0.8em;
+    }
+}
