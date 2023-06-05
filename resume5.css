@@ -1,17 +1,51 @@
-html{background-color: antiquewhite;color:rgb(10, 10, 143);
-    font-family: Arial, Helvetica, sans-serif;}
-h1{font: 16px,bold;}
-h2{font:14px,bold;}
-h3{font:12px;}
-h4{font:10px;}
-nav {background:antiquewhite;}
-button{padding: 1px; width: 80rem;
-background:rgb(228, 225, 225);
-color:rgb(10, 10, 143); border-radius: 15px;
-border:none;}
-img{border-radius:50%}
-#edu{background:antiquewhite; border:rgb(153, 153, 190)}
-#expi{background: rgb(185, 185, 212);border: rgb(185,185/212) }
-    #skil{background: rgb(197, 168, 168);border: rgb(197,168,168)}
-p{margin-left: 4px;margin-right: 4px;}
-section{padding: 2px;margin-top: 2px;margin-bottom: 2px;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./resume-images/tile3.jpg) repeat;
+    margin:0,
+}
+h1{
+    font: 16px,bold;
+}
+h2{
+    font:14px,bold;
+}
+h3{
+    font:12px;
+}
+h4{
+    font:10px;
+}
+nav {
+    background:antiquewhite;
+    margin:0;
+}
+button{
+    padding: 1px; width: 80rem;
+    background:rgb(228, 225, 225);
+    color:rgb(10, 10, 143); border-radius: 15px;
+    border:none;
+}
+img{
+    border-radius:50%
+}
+#edu{
+    background:antiquewhite; border:rgb(153, 153, 190)
+}
+#expi{
+    background: rgb(185, 185, 212);border: rgb(185,185/212) 
+}
+    #skil{
+        background: rgb(197, 168, 168);border: rgb(197,168,168)
+    }
+p{
+    margin:0;
+}
+section{
+    padding: 2px;margin-top: 2px;margin-bottom: 2px;
+    background-color: bisque;
+    margin: 0;
+}
+footer{
+    margin: 0;
+    background-color: rgb(238, 215, 186);
+}
